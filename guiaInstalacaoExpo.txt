@@ -1,0 +1,15 @@
+1 - React navigation
+
+2 - comando de instalação utilizando o expo, # npx expo install @react-navigation/native
+
+3 - npx expo install react-native-screens react-native-safe-area-context
+
+4 - npx expo install @react-navigation/native-stack
+
+---------------------BOTTOMS TABS---------------------
+
+1 - npx expo install @react-navigation/bottom-tabs
+
+---------------------Drawer Navigator---------------------
+
+1 - npx expo install react-native-gesture-handler react-native-reanimated
