@@ -12,4 +12,10 @@
 
 ---------------------Drawer Navigator---------------------
 
-1 - npx expo install react-native-gesture-handler react-native-reanimated
+1 - npx expo install @react-navigation/drawer
+
+2 - npx expo install react-native-gesture-handler react-native-reanimated
+
+--------------------Comando para customizar o expo, ex:babel.config
+
+npx expo customize
