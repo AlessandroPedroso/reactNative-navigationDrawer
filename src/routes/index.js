@@ -3,6 +3,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer"
 import StackRoutes from "../routes/stackRoutes";
 import Sobre from "../pages/Sobre";
 import Contato from "../pages/Contato";
+import CustomDrawer from "../components/CustomDrawer";
 
 import Feather from "@expo/vector-icons/Feather";
 
@@ -11,10 +12,18 @@ const Drawer = createDrawerNavigator()
 export default function Routes() {
   return (
     <Drawer.Navigator
-
+      drawerContent={CustomDrawer}
       screenOptions={
         {
-          headerShown: true
+          headerShown: true,
+          drawerStyle: {
+            backgroundColor: "#FFF",
+            marginTop: 50
+          },
+          drawerActiveBackgroundColor: "#00DAD4",
+          drawerActiveTintColor: "#FFF",
+          drawerInactiveBackgroundColor: "#F1F1F1",
+          drawerInactiveTintColor: "#000"
         }
       }
 
